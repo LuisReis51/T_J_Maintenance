@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    tools:context=".ServicesActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/services"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFB300"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="-2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="404dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/any_project_at_anytime"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="23sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:text="@string/range"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/picklelineppsetting">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:text="@string/structural_reinforcement_or_overhaul"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bpatjskeleton">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAlignment="center"
+                android:text="@string/we_do_the_whole_job"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/apatjpickleline">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="107dp"
+                android:textAlignment="center"
+                android:text="@string/reputation"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cpatjpicklebline">
+
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="@string/nodowntime"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pprecircs">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:text="@string/replacement_of_tanks_scrubbing_or_stripping_systems"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pptank">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textAlignment="center"
+                android:text="@string/rubber_lined_filter_casings_with_custom_poly_filters"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ppbasktoutsideii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/machined_parts"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="402dp"
+                app:srcCompat="@drawable/pppieceii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/carbon_steel_stainless_steel_or_titanium_tanks"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/steeltankkoroseal">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/koroseal_lining_for_chroming_facilities"
+                android:textColor="#FFF"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/korosealii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/fiberglass_structures"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/strainiesii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/tanks_and_parts"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fgstrainersii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="@string/dot"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/blstdtrlrii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/inside_and_out"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/preppedtrlrii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/visual_and_interior_spark_test"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/prpdiitrkr">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/paintings_and_coatings"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/supertankerbhndii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/spools_elbows_sump_pipes_and_all_rubber_lined_parts_available_per_request"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sprtnkrfrntii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/any_structure_for_your_facility_no_matter_how_big_or_small"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gateii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/support_on_all_installations"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ptanktwoii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="@string/contact_us_to_schedule"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dumpii">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="www.tanksnliners.com"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="20sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cyclone">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/blrbrnsteelcellii">
+
+            </ImageView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

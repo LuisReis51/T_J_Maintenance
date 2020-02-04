@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tanksnliners.myapplication.ContactActivity"
+    android:background="@drawable/login_background">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/action_dial_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="32dp"
+        android:text="@string/call_ted"
+        android:background="@drawable/rounded_btn2"
+        android:textColor="#2979FF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/action_dial_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FCFC07"
+        android:padding="32dp"
+        android:text="@string/call_john"
+        android:background="@drawable/rounded_btn2"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" >
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/action_dial_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_btn2"
+        android:padding="32dp"
+        android:text="@string/call_luis"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#02FA63"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

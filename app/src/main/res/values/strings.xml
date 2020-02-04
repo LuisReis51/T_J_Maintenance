@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">T J Maintenance</string>
+    <string name="services">SERVICES</string>
+    <string name="any_project_at_anytime">Any project at anytime.</string>
+    <string name="range">Replacement of Pickling Lines.</string>
+    <string name="structural_reinforcement_or_overhaul">Structural reinforcement.</string>
+    <string name="we_do_the_whole_job">WE DO THE WHOLE JOB</string>
+    <string name="reputation">TJ Maintenance has built its reputation by providing the best ​end-to-end service.</string>
+    <string name="nodowntime">We are ready to assist on all maintenance and inspections your facility requires in order to eliminate downtime.</string>
+    <string name="replacement_of_tanks_scrubbing_or_stripping_systems">Replacement and repair of tanks, scrubbing/stripping systems, media replacement, tank inspections and custom parts manufacturing.</string>
+    <string name="tanks_and_parts">Tanks and Parts</string>
+    <string name="fiberglass_structures">Fiberglass structures.</string>
+    <string name="carbon_steel_stainless_steel_or_titanium_tanks">Carbon Steel, Stainless Steel or Titanium Tanks.</string>
+    <string name="koroseal_lining_for_chroming_facilities">Koroseal Lining for Chroming Facilities.</string>
+    <string name="rubber_lined_filter_casings_with_custom_poly_filters">Rubber Lined Filter Casings with Custom Filters.</string>
+    <string name="machined_parts">Machined Parts</string>
+    <string name="dot">DOT</string>
+    <string name="inside_and_out">Repairs to flanges, parts and trailer frame.</string>
+    <string name="visual_and_interior_spark_test">Visual and Interior Inspections</string>
+    <string name="paintings_and_coatings">Paintings and Coatings</string>
+    <string name="spools_elbows_sump_pipes_and_all_rubber_lined_parts_available_per_request">Spools, Elbows, Sump Pipes and all rubber lined parts available per request.</string>
+    <string name="any_structure_for_your_facility_no_matter_how_big_or_small">Any structure for your facility, no matter how big or small.</string>
+    <string name="support_on_all_installations">Support on all installations.</string>
+    <string name="contact_us_to_schedule">Contact us to schedule.</string>
+    <string name="call_us">call us</string>
+    <string name="services2">Services</string>
+    <string name="chemical_containment_experts">Chemical Containment Experts</string>
+    <string name="tj_maintenance">TJ MAINTENANCE</string>
+    <string name="todo">TODO</string>
+    <string name="call_luis">Call Luis</string>
+    <string name="call_john">Call John</string>
+    <string name="call_ted">Call Ted</string>
+</resources>
